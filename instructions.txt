@@ -1,7 +1,8 @@
 Use Git correctly:
 1. git pull
-2. git branch yourBranch
-2. Change your files
+2.1 git branch yourBranch
+2.2 git checkout yourBranch #switch to the branch
+2.3 Change your files
 2.5 git status #to have an overview at all time
 3. git add yourFiles / git add -A #all / git add *.html # all html files
-4. git commit
+4. git commit -m 'message' #-m for no vim editor
